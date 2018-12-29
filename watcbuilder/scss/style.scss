@@ -1,0 +1,67 @@
+/*
+Theme Name: Wearetoocrazy theme builder
+Theme URI: https://wearetoocrazy.com
+Author: Luis A. Castillo
+Author URI: https://wearetoocrazy.com
+Description: Watc Builder is a modernized builder for WordPress platform — focus on code writing instead of graphic builer
+Version: 0.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: Watc's builder
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+$bg-color: #fff;
+$font-color: rgb(59, 59, 51);
+$primary-color: #008ed6;
+
+body {
+  background: $bg-color;
+  color: $font-color;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+}
+
+.navbar {
+  border-bottom: $primary-color 3px solid;
+  opacity: 0.8;
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+// Ejemplo de target al id de la pagina faqs creada por wordpreess
+// el cual tiene por nombre page-id-13 visto con la funcion
+// "body_class" en la consola del navegador
+// .page-id-13 h1 {
+//   color: red;
+// }
+// Solo afecta a la pagina 13
+
+#site-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: $font-color;
+  border-top: $primary-color 3px solid;
+  opacity: 0.8;
+  text-align: center;
+  padding: 0.7em;
+  margin: auto;
+}
+
+#margen-pagina {
+  padding-top: 5em;
+}
