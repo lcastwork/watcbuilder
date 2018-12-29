@@ -12,6 +12,5 @@
 - Luego de instalar las dependencias ejecutar **npm start** para iniciar todo
 
 ### NOTA: 
-Escribir los estilos dentro del archivo **style.scc**
+Escribir los estilos dentro del archivo **style.scss**
 ARCHIVOS CUENTAN INTERNAMENTE CON DESCRIPCIONES PARA CADA ARCHIVO Y FUNCIONES ESPESIFICAS
-
