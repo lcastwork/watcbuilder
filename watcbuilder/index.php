@@ -1,7 +1,7 @@
 <?php
 
 /**
- * ARCHIVO PRINCIPAL DEL TEMA
+ * ARCHIVO PRINCIPAL
  * get_header** Funcion usada para llamar todo el head de la pagina desde el archivo "header.php"
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
